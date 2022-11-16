@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vexy Panel</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./scripts/connect.js"></script>
+</head>
+
+<body onload="start();">
+    <div class="display">
+        <div class="guilds" id="guilds">
+        </div>
+        <div class="channels" id="channels">
+            <div class="channel"># escolha-uma-guild #</div>
+            <div class="channel"># e-um-canal #</div>
+        </div>
+        <div class="chatbox" id="chatbox">
+            <div class="chat-header" id="chat-header">Nenhum chat selecionado</div>
+            <div class="fix">
+                <div class="chat-display" id="chat-display">
+                    <div class="message" id="">
+                        <img class="message-icon" src="https://cdn.discordapp.com/attachments/1029457002251960342/1036719533706186812/1c52f7a12132597644d650edd78fcc31.jpg">
+                        <div class="message-body">
+                            <div class="message-header">Vexy#2404</div>
+                            <div class="message-content">???</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input" id="chat-input">
+                <input id="input" placeholder="Sua mensagem aqui">
+            </div>
+        </div>
+        <div class="dms" id="dms">
+            <div class="dm-button" id="dm-button" onclick="toggleDMButton()">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
