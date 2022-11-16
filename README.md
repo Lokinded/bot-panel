@@ -1,4 +1,4 @@
-# Doppelganger-Bot
+# Bot Panel
 Interface web para controlar seu bot através do navegador como se estivesse conectado a uma conta do discord.
 
 ###### O que posso fazer?
